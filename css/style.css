@@ -14,7 +14,7 @@ button {
 /* HEADER_____________________________ */
 a {
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
 }
 .logo {
   color: #4d5ae5;
@@ -158,7 +158,7 @@ nav > ul > .header-list :focus {
 
 .portfolio-text {
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 /* FOOTER________________ */
 
