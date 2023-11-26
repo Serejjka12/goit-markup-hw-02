@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-  line-height: 1.5;
 }
 /* cancel style________________________ */
 ul,
@@ -18,7 +17,6 @@ a {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.3px;
   letter-spacing: 0.54px;
@@ -28,16 +26,12 @@ a {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.3px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-
 nav > ul > li {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -46,7 +40,6 @@ nav > ul > li :hover {
   color: #404bbf;
 }
 address > ul > li {
-  font-style: normal;
   letter-spacing: 0.32px;
 }
 address > ul > li :hover {
@@ -57,14 +50,13 @@ address > ul > li :hover {
 .header-title {
   background-color: #2e2f42;
 }
-
+/* button_____________ */
 .header-title > h1 {
   color: #fff;
   text-align: center;
-
   font-size: 56px;
   font-weight: 700;
-  line-height: 107.143%;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .header-title > button {
@@ -75,4 +67,69 @@ address > ul > li :hover {
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 169px;
+  height: 56px;
+}
+.header-title > button:hover {
+  background: #404bbf;
+}
+/* SECTION 2 ___________________________ */
+.features > ul > li > h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.features > ul > li > p {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* SECTION 3 ____________________________ */
+.team {
+  background: #f4f4fd;
+}
+
+.team > ul > li {
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team > ul > li > h3 {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.team > ul > li > p {
+  text-align: center;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* SECTION 3 ____________ */
+
+.portfolio > h2 {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.portfolio > ul > li {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+.portfolio > ul > li > h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
 }
