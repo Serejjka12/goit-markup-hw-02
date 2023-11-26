@@ -42,7 +42,7 @@ nav > ul > .header-list :focus {
 .address > ul > .header-contact {
   letter-spacing: 0.32px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: #434455;
 }
 .address > ul > .header-contact :hover {
   color: #404bbf;
