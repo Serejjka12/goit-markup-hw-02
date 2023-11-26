@@ -17,44 +17,49 @@ a {
   color: #2e2f42;
 }
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.3px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
-nav > ul > li {
+nav > ul > .header-list {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-nav > ul > li :hover {
+nav > ul > .header-list :hover {
   color: #404bbf;
 }
-nav > ul > li :focus {
+nav > ul > .header-list :focus {
   color: #404bbf;
 }
-address > ul > li {
+.address > ul > .header-contact {
   letter-spacing: 0.32px;
+  line-height: 1.5;
+  color: #434455;
 }
-address > ul > li :hover {
+.address > ul > .header-contact :hover {
   color: #404bbf;
 }
-address > ul > li :focus {
+.address > ul > .header-contact :focus {
   color: #404bbf;
+}
+.address {
+  font-style: normal;
 }
 /* SECTION 1 _____________________ */
 
-.header-title {
+.solutions {
   background-color: #2e2f42;
 }
 /* button_____________ */
-.header-title > h1 {
+.solutions-title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -62,32 +67,34 @@ address > ul > li :focus {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-.header-title > button {
+.solutions-button {
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 169px;
   height: 56px;
 }
-.header-title > button:hover {
+.solutions-button:hover {
   background: #404bbf;
 }
-.header-title > button:focus {
+.solutions-button:focus {
   background: #404bbf;
 }
 /* SECTION 2 ___________________________ */
-.features > ul > li > h3 {
+.features-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-.features > ul > li > p {
+.features-text {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -96,7 +103,15 @@ address > ul > li :focus {
 .team {
   background: #f4f4fd;
 }
-
+.team-headtitle {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 .team > ul > li {
   border-radius: 0px 0px 4px 4px;
   background: #fff;
@@ -104,7 +119,7 @@ address > ul > li :focus {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team > ul > li > h3 {
+.team-title {
   color: #2e2f42;
   text-align: center;
   font-size: 20px;
@@ -113,26 +128,27 @@ address > ul > li :focus {
   letter-spacing: 0.4px;
 }
 
-.team > ul > li > p {
+.team-text {
   text-align: center;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  font-size: 16px;
 }
-/* SECTION 3 ____________ */
+/* SECTION 4 ____________ */
 
-.portfolio > h2 {
+.portfolio-headtitle {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1; /* 111.111% */
-  letter-spacing: 0.72px;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .portfolio > ul > li {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
-.portfolio > ul > li > h3 {
+.portfolio-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -140,13 +156,13 @@ address > ul > li :focus {
   letter-spacing: 0.4px;
 }
 
-.portfolio > ul > li > p {
+.portfolio-text {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 /* FOOTER________________ */
 
-footer {
+.footer {
   background-color: #2e2f42;
 }
 
@@ -155,16 +171,16 @@ footer {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.1; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.logo-footer span {
+.logo-footerspan {
   color: #f4f4fd;
 }
 
-footer > p {
+.footer-text {
   color: #f4f4fd;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
