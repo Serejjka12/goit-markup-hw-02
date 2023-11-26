@@ -8,6 +8,9 @@ ul,
 ol {
   list-style-type: none;
 }
+button {
+  cursor: pointer;
+}
 /* HEADER_____________________________ */
 a {
   text-decoration: none;
@@ -15,7 +18,7 @@ a {
 }
 .logo {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.3px;
@@ -24,12 +27,6 @@ a {
 }
 .logo span {
   color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.3px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 nav > ul > li {
   font-weight: 500;
@@ -39,10 +36,16 @@ nav > ul > li {
 nav > ul > li :hover {
   color: #404bbf;
 }
+nav > ul > li :focus {
+  color: #404bbf;
+}
 address > ul > li {
   letter-spacing: 0.32px;
 }
 address > ul > li :hover {
+  color: #404bbf;
+}
+address > ul > li :focus {
   color: #404bbf;
 }
 /* SECTION 1 _____________________ */
@@ -71,6 +74,9 @@ address > ul > li :hover {
   height: 56px;
 }
 .header-title > button:hover {
+  background: #404bbf;
+}
+.header-title > button:focus {
   background: #404bbf;
 }
 /* SECTION 2 ___________________________ */
@@ -132,4 +138,34 @@ address > ul > li :hover {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
+}
+
+.portfolio > ul > li > p {
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* FOOTER________________ */
+
+footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-footer span {
+  color: #f4f4fd;
+}
+
+footer > p {
+  color: #f4f4fd;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
 }
