@@ -14,7 +14,7 @@ button {
 /* HEADER_____________________________ */
 a {
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
 }
 .logo {
   color: #4d5ae5;
@@ -32,7 +32,7 @@ nav > ul > .header-list {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: #434455;
+  color: #2e2f42;
 }
 nav > ul > .header-list :hover {
   color: #404bbf;
@@ -43,7 +43,6 @@ nav > ul > .header-list :focus {
 .address > ul > .header-contact {
   letter-spacing: 0.32px;
   line-height: 1.5;
-  color: #434455;
 }
 .address > ul > .header-contact :hover {
   color: #404bbf;
