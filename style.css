@@ -1,0 +1,170 @@
+/*Cancel style*/
+a {
+	text-decoration: none;
+}
+ul,
+ol {
+	list-style-type: none;
+}
+
+/*BODY______________________________*/
+body {
+	font-family: Roboto;
+	color: #434455;
+	background-color: #fff;
+}
+
+/* GLOBAL________________________________ */
+.main-title-section {
+	color: var(--NAVY-BLUE, #2e2f42);
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 111.111%;
+	letter-spacing: 0.72px;
+}
+
+/*HEADER_____________________________*/
+
+.header-link {
+	color: var(--NAVY-BLUE, #2e2f42);
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.32px;
+}
+.header-logo {
+	color: var(--NAVY-BLUE, #2e2f42);
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116.667%;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+
+.header-logo span {
+	color: var(--IRIS, #4d5ae5);
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116.667%;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+.header-link:hover {
+	color: var(--OCEAN, #404bbf);
+}
+.header-contact_link {
+	color: var(--SLATE, #434455);
+	font-size: 16px;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.32px;
+}
+.header-contact_link:hover {
+	color: var(--OCEAN, #404bbf);
+}
+
+/*SECTION SOLUTIONS_______________________ */
+.solutions {
+	background: var(--NAVY-BLUE, #2e2f42);
+}
+.solutions-title {
+	color: var(--WHITE, #fff);
+	text-align: center;
+	/* Header 1 */
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 107.143%;
+	letter-spacing: 1.12px;
+}
+
+.solutions-button {
+	color: var(--WHITE, #fff);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: 0.64px;
+	border-radius: 4px;
+	background: var(--IRIS, #4d5ae5);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+/*SECTION FEATURES______________________ */
+
+.feature-subtitle {
+	color: var(--NAVY-BLUE, #2e2f42);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: 0.4px;
+}
+
+.feature-text {
+	color: var(--SLATE, #434455);
+	line-height: 150%;
+	letter-spacing: 0.32px;
+}
+/* SECTION TEAM___________________________ */
+.team-subtitle {
+	color: var(--NAVY-BLUE, #2e2f42);
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: 0.4px;
+}
+
+.team-text {
+	color: var(--SLATE, #434455);
+	text-align: center;
+	font-style: normal;
+	line-height: 150%;
+	letter-spacing: 0.32px;
+}
+
+/* SECTION PORTFOLIO_________________________ */
+.portfolio-subtitle {
+	color: var(--NAVY-BLUE, #2e2f42);
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: 0.4px;
+}
+.portfolio-text {
+	color: var(--SLATE, #434455);
+	line-height: 150%;
+	letter-spacing: 0.32px;
+}
+/* FOOTER */
+.footer-logo {
+	color: var(--CLOUD, #f4f4fd);
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116.667%;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+
+.footer-logo span {
+	color: var(--IRIS, #4d5ae5);
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 116.667%;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+.footer-text {
+	color: var(--CLOUD, #f4f4fd);
+	line-height: 150%;
+	letter-spacing: 0.32px;
+}
+.footer {
+	background: var(--NAVY-BLUE, #2e2f42);
+}
