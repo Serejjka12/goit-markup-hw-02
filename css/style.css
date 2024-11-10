@@ -20,7 +20,7 @@ body {
 	text-align: center;
 	font-size: 36px;
 	font-weight: 700;
-	line-height: 111.111%;
+	line-height: 1.11111;
 	letter-spacing: 0.72px;
 	text-transform: capitalize;
 }
@@ -30,7 +30,7 @@ body {
 .header-link {
 	color: var(--NAVY-BLUE, #2e2f42);
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 .header-logo {
@@ -50,7 +50,7 @@ body {
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 116.667%;
+	line-height: 1.16667;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 }
@@ -64,7 +64,7 @@ body {
 .header-contact_link {
 	color: var(--SLATE, #434455);
 	font-size: 16px;
-	line-height: 24px; /* 150% */
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 .header-contact_link:hover {
@@ -86,7 +86,7 @@ body {
 	/* Header 1 */
 	font-size: 56px;
 	font-weight: 700;
-	line-height: 107.143%;
+	line-height: 1.07143;
 	letter-spacing: 1.12px;
 }
 
@@ -96,7 +96,7 @@ body {
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.64px;
 	background: var(--IRIS, #4d5ae5);
 	cursor: pointer;
@@ -114,13 +114,13 @@ body {
 	color: var(--NAVY-BLUE, #2e2f42);
 	font-size: 20px;
 	font-weight: 500;
-	line-height: 120%;
+	line-height: 1.2;
 	letter-spacing: 0.4px;
 }
 
 .feature-text {
 	color: var(--SLATE, #434455);
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 /* SECTION TEAM___________________________ */
@@ -133,7 +133,7 @@ body {
 	text-align: center;
 	font-size: 20px;
 	font-weight: 500;
-	line-height: 120%;
+	line-height: 1.2;
 	letter-spacing: 0.4px;
 }
 
@@ -141,7 +141,7 @@ body {
 	color: var(--SLATE, #434455);
 	text-align: center;
 	font-style: normal;
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 .team-item {
@@ -154,12 +154,12 @@ body {
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 120%;
+	line-height: 1.2;
 	letter-spacing: 0.4px;
 }
 .portfolio-text {
 	color: var(--SLATE, #434455);
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 /* FOOTER */
@@ -168,7 +168,6 @@ body {
 	font-family: Raleway, sans-serif;
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 116.667%;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 	line-height: 1.17;
@@ -186,7 +185,7 @@ body {
 }
 .footer-text {
 	color: #f4f4fd;
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 .footer {
