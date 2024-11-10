@@ -98,7 +98,6 @@ body {
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.64px;
-	border-radius: 4px;
 	background: var(--IRIS, #4d5ae5);
 	cursor: pointer;
 }
